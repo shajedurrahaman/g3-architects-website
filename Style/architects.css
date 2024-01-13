@@ -277,7 +277,7 @@ main {
     }
     nav,
     .features-container,
-    .love-enjoy-container
+    .love-enjoy-container,
     .fact-card-container,
     .sponsor-img {
         flex-direction: column;
@@ -296,6 +296,10 @@ main {
     .love-enjoy-img img {
         width: 100%;
         margin-left: 0 ;
+    }
+    .sponsor-img {
+        gap: 2rem;
+        padding-left: 8rem;
     }
 }
 /** For Tablet and Medium Devices  */
