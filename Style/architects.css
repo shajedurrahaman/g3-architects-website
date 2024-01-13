@@ -308,7 +308,10 @@ main {
         padding: 50px;
     }
     nav,
-    .features-container {
+    .features-container,
+    .love-enjoy-container,
+    .fact-card-container,
+    .sponsor-img {
         flex-direction: column;
     } 
     .features-content {
