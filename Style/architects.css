@@ -1,0 +1,134 @@
+/** work sans font from google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Merriweather&family=Work+Sans:wght@400;500&display=swap');
+
+/** shared styles  */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+.primary-btn {
+    color: #FFF;
+    text-align: center;
+    background: #FF900E;
+    border-radius: 8px;
+    padding: 1.25rem 2rem;
+    border: none;
+}
+header {
+    background: rgba(255, 144, 14, 0.10);
+    padding: 3rem 15rem;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-title {
+    color: #131313;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+nav > ul {
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 2rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+/* * banner section styling start  */
+.banner {
+
+}
+.banner-content {
+    max-width: 52rem;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title {
+    color: #131313;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+.banner-desc {
+    color: #727272;;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-img {
+    max-width: 100%;
+}
+.banner-img {
+    margin-top: 1.25rem;
+}
+/* * banner section styling ends  */
+
+/** main section style start  */
+main {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+/** main section style ends  */
+
+/** features section style start  */
+.features-container {
+    display: flex;
+    align-items: center;
+}
+.features-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.features-content {
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+}
+.features-title {
+    font-size: 2.8rem;
+}
+.features-title .Quick-list {
+    color: #727272;
+    font-weight: 500;
+}
+.features-title .of-Our {
+    color: #131313;
+    font-weight: 700;
+}
+.features-title .Features {
+    color: #FF900E;
+    font-weight: 700;
+}
+.features-content 
+.features-desc {
+
+}
+/** features section style ends */
+
+/** responsive style for banner section  */
+/** For Mobile Devices */
+@media  screen and (max-width: 576px) {
+    header {
+        padding: 20px;
+    }
+    nav {
+        flex-direction: column;
+    }
+}
+/** For Tablet and Medium Devices  */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    header {
+        padding: 50px;
+    }
+    nav {
+        flex-direction: column;
+    }   
+}
